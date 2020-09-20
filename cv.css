@@ -1,0 +1,156 @@
+Body {font-family:Trebuchet MS;
+	line-height:1;
+	font-size:10px;
+	margin-right:3px;
+	margin-left:3px;
+	margin-top:3px
+	mergin-bottom:3px}
+#container {width:1000px;
+			height:3700px;
+			background-color:red;
+			margin-left:auto;
+			margin-right:auto;}
+
+
+#nama {height:200px;
+			width:800px;
+			background-size:800px 250px;
+			background-color:yellow;
+			background-repeat:no-repeat;
+			float:right;}
+p {font-family:verdana;
+	color:white;
+	font-size:30px;
+	text-align:right;
+	margin-right:10px;
+	margin-left:5px;}
+#employment {height:120px;
+		width:1000px;
+		float:right;
+		background-color:blue;}
+#employment table {width:700px;
+				margin-left:50px;
+				margin-top:10px;
+				margin-bottom:10px;
+				border-collapse:collapse;
+				color:green;}
+#employment	a {color:purple;
+		text-decoration:none;
+		font-family:Times Roman;}
+		
+#foto {width:200px;
+			height:200px;
+			background-color:pink;
+			float:left;}
+#sidebar table {width:200px;
+				height:100px;
+				margin-left:5px;
+				margin-top:5px;
+				margin-bottom:5px}
+				a {text-decoration:none;}
+#sidebar img {width:200px;
+				height:200px;
+				border-radius:50px 0px 0px;}
+#sidebar a {color:blue;
+			text-decoration:none;
+			font-family:Times Roman;}
+#sidebar td {border-bottom:1px solid gray;}
+#sidebar th {background-color:#1823c0;
+				color:white;
+				text-align:left;}
+			
+#ithb {width:1000px;
+			height:200px;
+			background-color:cyan;
+			float:right;}
+# h1 {font-family:verdana;
+				font-size:30px;}
+#ithb h2 {font-family:verdana;}
+#ithb ol {font-family:verdana;
+				font-size:12px;}
+#ithb img {width:200px;
+				height:70px;}
+#certiplus {width:1000px;
+			height:200px;
+			background-color:pink;
+			clear:both;
+			color:white;
+			font-family:verdana;
+			text-align:center;}
+
+#cisco {width:1000px;
+			height:200px;
+			background-color:red;
+			float:right;}
+
+#sma {width:1000px;
+			height:100px;
+			background-color:pink;
+			float:right;}
+			
+	
+#tanggal_ithb {width:150px;
+			height:30px;
+			background-color:black;
+			float:right;}
+
+#tanggal_certiplus {width:150px;
+			height:30px;
+			background-color:black;
+			float:right;}
+			
+#tanggal_cisco1 {width:150px;
+			height:30px;
+			background-color:black;
+			float:right;}
+			
+#tanggal_cisco2 {width:150px;
+			height:30px;
+			background-color:black;
+			float:right;}
+			
+						
+#tanggal_sma {width:150px;
+			height:30px;
+			background-color:black;
+			float:right;}
+			
+#experience1 {width:1000px;
+			height:450px;
+			background-color:blue;
+			float:right;}
+			
+#experience2 {width:1000px;
+			height:450px;
+			background-color:pink;
+			float:right;}
+
+#tanggal_experience1 {width:150px;
+			height:30px;
+			background-color:black;
+			float:right;}
+
+#tanggal_experience2 {width:150px;
+			height:30px;
+			background-color:black;
+			float:right;}
+
+#proficient_tech {width:1000px;
+			height:450px;
+			background-color:purple;
+			float:right;}
+
+#english {width:1000px;
+			height:450px;
+			background-color:blue;
+			float:right;}
+
+#award {width:1000px;
+			height:450px;
+			background-color:yellow;
+			float:right;}
+
+#another_experience {width:1000px;
+			height:450px;
+			background-color:grey;
+			float:right;}			

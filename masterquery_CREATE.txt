@@ -1,0 +1,24 @@
+PERSONAL DETAIL:
+>> INSERT INTO personal_detail (pd_id, no_induk, nama, alamat, kota, propinsi, kode_pos, no_telpon, email, path_image, us_id, ps_id) 
+VALUES ('','".$array['no_induk']."','".$array['nama']."','".$array['alamat']."','".$array['kota']."','".$array['propinsi']."','".$array['kode_pos']."','".$array['no_telpon']."','".$array['email']."','".$array['path_image']."','".$array['us_id']."','".$array['ps_id']."');
+
+EMPLOYMENT OBJECTIVE:
+>> INSERT INTO employment_objective (eo_id, objective, pd_id) VALUES ('','".$array['objective']."','".$array['pd_id']."');
+
+EDUCATION:
+    1. HIGHER EDUCATION
+        >> INSERT INTO higher_education (he_id, nama, kota, jurusan, concentration, gelar, ipk, tanggal, pd_id) 
+        VALUES ('".$array['he_id']."','".$array['nama']."','".$array['kota']."','".$array['jurusan']."','".$array['concentration']."','".$array['gelar']."','".$array['ipk']."','".$array['tanggal'].",'".$array['pd_id']."');
+
+    2. CERTIFICATION
+        >> INSERT INTO sertification (ser_id, nama, sumber, tanggal, pd_id) VALUES ('".$array['ser_id']."','".$array['nama']."','".$array['sumber']."','".$array['tanggal']."','".$array['pd_id']."');
+
+    3. COMPULSARY EDUCATION
+        >> INSERT INTO compulsary (co_id, nama, tanggal, pd_id) VALUES ('".$array['co_id']."','".$array['nama']."','".$array['tanggal']."','".$array['pd_id']."');
+
+EXPERIENCE:
+(additional field <<SHOULD BE NEW TABLE>>: achievement):
+>> ?????
+
+ADDITIONAL INFORMATION / OTHER EXPERIENCE:
+>> ?????

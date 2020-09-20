@@ -1,0 +1,5 @@
+{
+    "open-php-html-js-in-browser.customUrlToOpen": "http://localhost//${workspaceFolderBasename}/${relativeFile}",
+    "open-php-html-js-in-browser.urlToOpen": "custom",
+    "open-php-html-js-in-browser.selectedBrowser": "Chrome"
+}

@@ -1,0 +1,193 @@
+body {
+    background: rgb(204, 204, 204);
+    margin-top: 0.5cm;
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    padding: 2cm;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+    margin-top: 0.5cm;
+    width: 21cm;
+    height: 29.7cm;
+}
+
+img {
+    width: 10pt;
+}
+
+.garis {
+    margin-top: 2cm;
+}
+
+.wrapper {
+    margin: 2 auto;
+}
+
+#photo {
+    width: 2cm;
+    height: 3cm;
+    margin-bottom: -60px;
+}
+
+#name {
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 30px;
+}
+
+#address {
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 0px;
+}
+
+#kota {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+}
+
+#hpemail {
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: -60px;
+}
+
+.link:link {
+    color: #365eff;
+}
+
+#link {
+    font-family: "Trebuchet MS";
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+#emp {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 0.3cm;
+}
+
+#obj {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#edu {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 0.3cm;
+}
+
+#kampus {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#certi {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#cerplus {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#cisco {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#cisnet {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#sma {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#exprience {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+}
+
+#ex {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 3px;
+    margin-left: 0.8cm;
+}
+
+#additional {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+}
+
+#add {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 0.8cm;
+}
+
+#addtech {
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-left: 1.2cm;
+}
+
+#tanggal {
+    float: right;
+    font-family: "Trebuchet MS";
+}
+
+li {
+    list-style-position: outside;
+    margin-left: -0.8cm;
+    margin-bottom: -13px;
+    margin-top: 1px;
+}

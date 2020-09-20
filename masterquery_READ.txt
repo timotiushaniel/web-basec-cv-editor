@@ -1,0 +1,97 @@
+PERSONAL DETAIL:
+>> mis: nama ambil dari konst (mis: $NAMA = name), alamat ambil dari konst,
+
+>> SELECT $NAMA, $ALAMAT, $KOTA, $PROPINSI, $KODE_POS, $NO_TELPON, $EMAIL, $FOTO FROM $PERSONAL_DETAIL WHERE $PD_ID = ?;
+
+1. Nama
+    >> SELECT nama FROM personal_detail WHERE pd_id = ?;
+2. ALAMAT
+    >> SELECT alamat FROM personal_detail WHERE pd_id = ?;
+3. KOTA
+    >> SELECT kota FROM personal_detail WHERE pd_id = ?;
+4. PROVINSI
+    >> SELECT propinsi FROM personal_detail WHERE pd_id = ?;
+5. KODE POS 
+    >> SELECT kode_pos FROM personal_detail WHERE pd_id = ?;
+5. NO TELEPON
+    >> SELECT no_telpon FROM personal_detail WHERE pd_id = ?;
+6. EMAIL
+    >> SELECT email FROM personal_detail WHERE pd_id = ?;
+7. FOTO
+    >> SELECT path_image FROM personal_detail WHERE pd_id = ?;
+
+EMPLOYMENT OBJECTIVE:
+>> SELECT objective FROM employment_objective WHERE pd_id = ?;
+
+EDUCATION:
+    1. HIGHER EDUCATION
+    >> SELECT SEMUA NYA LANGSUNG AJA DARI HIGHER EDUCATION
+
+        1.1 NAMA KAMPUS
+            >> SELECT nama FROM higher_education WHERE pd_id = ?; 
+        1.2 KOTA
+            >> SELECT kota FROM higher_education WHERE pd_id = ?;
+        1.3 NEGARA
+            >> SELECT negara FROM higher_education WHERE pd_id = ?;
+        1.4 TAHUN LULUSAN
+            >> SELECT tanggal FROM higher_education WHERE pd_id = ?;
+        1.5 GELAR
+            >> SELECT gelar FROM higher_education WHERE pd_id = ?;
+        1.6 CONCENTRATION
+            >> SELECT concentration FROM higher_education WHERE pd_id = ?;
+        1.7 IPK
+            >> SELECT ipk FROM higher_education WHERE pd_id = ?;
+
+    2. CERTIFICATION
+    >> SELECT SEMUA NYA LANGSUNG DARI CERTIFICATION
+    
+        2.1 NAMA SERTIFIKASI
+            >> SELECT nama FROM certification WHERE pd_id = ?;
+        2.2 TAHUN
+            >> SELECT tanggal FROM certification WHERE pd_id = ?;
+        2.3 PLACE
+            >> SELECT sumber FROM certification WHERE pd_id = ?;
+        2.4 KETERANGAN
+            <<AMBIL DARI KONSTANTA, GA PERLU AMBIL DARI DATABASE>>
+
+    3. COMPULSARY EDUCATION
+        3.1 NAMA SEKOLAH
+            >> SELECT nama FROM compulsary WHERE pd_id = ?;
+        3.2 KOTA
+            >> ?????
+        3.3 NEGARA
+            >> ?????
+        3.4 TAHUN LULUSAN
+            >> SELECT tanggal FROM compulsary WHERE pd_id = ?;
+
+EXPERIENCE:
+1. NAMA PERUSAHAAN
+    >> SELECT nama_perusahaan FROM experience WHERE pd_id = ?;
+2. KOTA
+    >> SELECT kota FROM experience WHERE pd_id = ?;
+3. TANGGAL
+    >> SELECT tanggal FROM experience WHERE pd_id = ?;
+4. DETAIL PERUSAHAAN
+    >> SELECT detail_perusahaan FROM experience WHERE pd_id = ?;
+5. POSISI
+    >> SELECT posisi FROM experience WHERE pd_id = ?;
+6. JOB DESC
+    >> SELECT job_desc FROM experience WHERE pd_id = ?;
+7. ACHIEVEMENT
+    >> SELECT detail_pekerjaan FROM detail_job WHERE ex_id = ?;
+
+ADDITIONAL INFORMATION / OTHER EXPERIENCE:
+1. TECHNOLOGY
+    >> SELECT nama_teknologi FROM technology WHERE pd_id = ?;
+2. DETAIL TECHNOLOGY
+    >> SELECT detail_teknologi FROM detail_technology WHERE te_id = ?;
+3. OTHER ADDITIONAL INFORMATION (AWARD)
+    >> ??????
+4. ORGANIZATION
+    >> ?????
+5. LANGUAGE
+    >> SELECT nama FROM language WHERE pd_id = ?;
+6. LANGUAGE TEST TYPE
+    >> SELECT nama FROM language_test WHERE pd_id = ?;
+7. LANGUAGE TEST SCORE
+    >> SELECT score FROM language_test WHERE pd_id = ?;
